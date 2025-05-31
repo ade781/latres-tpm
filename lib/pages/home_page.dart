@@ -25,7 +25,7 @@ class _HomePageState extends State<HomePage> {
       _filteredRestaurants = restaurants;
       return restaurants;
     });
-  }
+  } 
 
   Future<void> _loadUsername() async {
     final prefs = await SharedPreferences.getInstance();
